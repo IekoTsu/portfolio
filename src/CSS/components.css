@@ -1,0 +1,47 @@
+/*---------------------- Footer ---------------------- */
+.footer{
+    background-color: #EEE;
+    height: auto;
+}
+
+.footer__copyright{
+    background-color: #1e1e1e;
+}
+
+.fa-angle-right{
+    color: #0d6efd ;
+    font-size: large;
+    font-weight: 600;
+}
+
+.list-unstyled a{
+    color: #444;
+    text-decoration: none;
+}
+
+.fa-brands{
+    color: #444;
+}
+
+/* ------------------------------------ Header ------------------------------------ */
+.navbar{
+    background-color: #1e1e1e;
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.8) ;
+    --bs-navbar-color: #eeeeee91 ;
+    --bs-navbar-active-color: #EEE; 
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255 )' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-border-color: rgb(255, 255, 255 , 0.25)
+}
+
+.navbar_logo{
+    max-width: 48px;
+}
+
+.banner{
+    max-height: 300px;
+}
+
+.heading__hr{
+    opacity: 100%;
+    border: 3px solid #0d6efd ;
+}

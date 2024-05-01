@@ -1,0 +1,33 @@
+.interface{
+    background-blend-mode: multiply;
+    max-height: 1100px;
+}
+
+.interface__title{
+    font-size: 4em;
+}
+
+.interface__subtitle{
+    font-size: 2.3em;
+}
+
+@media (width > 992px) {
+    .interface{
+        background:  url(../img/hero-bg.jpg) no-repeat center, rgb(0, 0, 0, 0.3) ;
+        height: 1100px;
+    }
+}
+
+@media (769px < width < 992px ){
+    .interface{
+        background:  url(../img/hero-bg-tablette.jpg) no-repeat center, rgb(0, 0, 0, 0.3) ;
+        height: 587px ;
+    }
+}
+
+@media (width < 769px ) {
+    .interface{
+        background:  url(../img/hero-bg-mobile.jpg) no-repeat center, rgb(0, 0, 0, 0.3) ;
+        height: 768px;
+    }
+}

@@ -1,0 +1,27 @@
+.form-floating>.form-control, .form-floating>.form-control-plaintext, .form-floating>.form-select{
+    height: 40px;
+    min-height:fit-content;
+}
+
+.form-floating>label {
+    top : -7px;
+}
+
+.contact__hr{
+    opacity: 100%;
+    border: 1px solid #0d6efd ;
+}
+
+.contact{
+    background-blend-mode: multiply;
+    
+    background: url(../img/contact-bg.jpg) no-repeat center,  rgba(0,105, 255, 0.5);
+}
+
+.contact__section{
+    background-color: #fff;
+}
+
+.fa-location-dot{
+    color: #444;
+}
