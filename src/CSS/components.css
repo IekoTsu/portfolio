@@ -1,5 +1,6 @@
 /*---------------------- Footer ---------------------- */
 .footer{
+    
     background-color: #EEE;
     height: auto;
 }
@@ -41,6 +42,27 @@
     max-height: 300px;
 }
 
+@media ( width > 992px) {
+    .banner{
+        background: url(../img/banner.jpg) no-repeat center ;
+        background-size: cover ;
+        height: 200px;
+    }
+}
+
+@media (769px < width < 992px ){
+    .banner{
+        background:  url(../img/banner-tablette.jpg) no-repeat center ;
+        height: 300px ;
+    }
+}
+
+@media (width < 769px ) {
+    .banner{
+        background:  url(../img/banner-mobile.jpg) no-repeat center ;
+        height: 250px;
+    }
+}
 .heading__hr{
     opacity: 100%;
     border: 3px solid #0d6efd ;

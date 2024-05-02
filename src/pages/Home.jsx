@@ -4,7 +4,7 @@ import aboutImg from "../img/john-doe-about.jpg";
 
 const Home = () => {
     return (
-        <main>
+        <main className='flex-grow-1'>
             <section className='interface d-flex justify-content-center align-items-center'>
                 <div className='interface__content d-flex flex-column gap-3 mb-3 px-3'>
                     <h1 className='interface__title text-light text-center mx-auto'>Bonjour, je suis John Doe</h1>
@@ -16,12 +16,21 @@ const Home = () => {
                 <div className='about__content col-md-6'>
                     <h3>À propos</h3>
                     <hr className="hr" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque risus felis, rutrum nec mi eget, egestas volutpat mauris. Curabitur massa velit, sodales vitae interdum ornare, mollis in purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nisi tellus, eleifend eget purus pretium, iaculis interdum dui. Aenean at orci iaculis, dictum est non, auctor nisl. Quisque id dui quam. In dignissim nibh id sapien iaculis, commodo pretium odio cursus. Aliquam aliquam aliquet arcu quis pretium. Suspendisse sit amet ex aliquam, hendrerit nulla nec, cursus ex.</p>
+                    <p>
+                        Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur- développeur web</strong> au CEF. Au cours de cette formation, 
+                        j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>.
+                    </p>
+                    <p>
+                        Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>.
+                    </p>
+                    <p>
+                        J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web
+                    </p>
                 </div>
                 <div className='about__skills-container col-md-6 gap-3'>
                     <img  className='about__image rounded img-fluid' src={aboutImg} alt='' />
                     <div className='about__skills '>
-                        <h4>Mes compétences</h4>
+                        <h4 className='mt-2'>Mes compétences</h4>
                         <div className='about__skills-item my-3'>
                             <p className='mb-1'>HTML 90%</p>
                             <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">

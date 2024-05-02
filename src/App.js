@@ -12,7 +12,7 @@ import LegalNotices from './pages/LegalNotices';
 
 function App() {
   return (
-    <div className="App bg-light">
+    <div className="App bg-light d-flex flex-column vh-100 justify-content-between ">
       <Header/>
       <Routes>
         <Route path='/' element = { <Home/> }/>
