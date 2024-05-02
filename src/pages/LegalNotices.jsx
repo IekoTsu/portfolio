@@ -3,10 +3,10 @@ import '../CSS/LegalNotices.css'
 
 const LegalNotices = () => {
     return(
-        <main>
-            <section className="p-5">
+        <main className="legal-notices-page flex-grow-1"> 
+            <section className="legal-notices-page__section p-5">
                 <Heading title="MENTIONS LÉGALES" />
-                <div className="accordion" id="accordionExample">
+                <div className="legal-notices-page__accordion accordion" id="accordionExample">
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button className="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

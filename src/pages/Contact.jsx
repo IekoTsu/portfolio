@@ -17,11 +17,11 @@ const  validatFields = (event) =>{
 
 const Contact = () =>{
     return (
-        <main className="contact p-5">
+        <main className="contact p-5 className='flex-grow-1'">
             <section className="contact__section rounded p-5">
                 <Heading title="ME CONTACTER" description="Pour me contacter en vue d'un entretin ou d'une future collaboration, merci de remplir le formulaire de contact." />
-                <div className="contact__info-container row">
-                    <form className="contact__form needs-validation col-6" onSubmit={validatFields}>
+                <div className="contact__info-container row g-4">
+                    <form className="contact__form needs-validation col-12 col-lg-6" onSubmit={validatFields}>
                         <h2 className="contact__form-title">Formulaire de contact</h2>
                         <hr className="contact__hr"/>
                         <div className="form-floating mb-3">
@@ -44,7 +44,7 @@ const Contact = () =>{
                           <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{height: 100 + "px"}} ></textarea>
                           <label htmlFor="floatingTextarea2">Votre message</label>
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 d-flex justify-content-center">
                             <button className="btn btn-primary" type="submit">Envoyer</button>
                         </div>
                     </form>

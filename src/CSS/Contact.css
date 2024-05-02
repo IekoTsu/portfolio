@@ -14,8 +14,8 @@
 
 .contact{
     background-blend-mode: multiply;
-    
     background: url(../img/contact-bg.jpg) no-repeat center,  rgba(0,105, 255, 0.5);
+    background-size: cover ;
 }
 
 .contact__section{

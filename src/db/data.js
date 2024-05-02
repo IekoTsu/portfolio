@@ -62,3 +62,10 @@ export const articlesData = [
         date : ["2022-07-12","12 juillet 2022"]
     },
 ]
+
+export const ServicesData = [
+    {
+        title:"UX DESIGN",
+        description:"L'UX Design est une méthode de conception centrée sur l'utilisateur. Son but est d'offrir une expérience de navigation optimale à l'internaute."
+    }
+]

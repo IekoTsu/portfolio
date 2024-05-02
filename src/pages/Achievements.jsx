@@ -4,7 +4,7 @@ import {achievementData} from "../db/data.js";
 const Achievements = () => {
 
     return(
-        <main>
+        <main className='flex-grow-1'>
             <div className="banner"/>
             <section className="p-5  ">
                 <Heading title="PORTFOLIO" description="Voici quelques-unes de mes réalisations."/>
