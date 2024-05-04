@@ -32,7 +32,7 @@ function GitProfile (){
                 <h2 className='git-profile-page__container-name'>{ user.name }</h2>
                 <img className='git-profile-page__container-image' src={ user.avatar_url } alt={`${user.login} full sized avatar`}></img>
                 <div className='git-profile-page__container-info' > 
-                    <ul className='list-unstyled text-center row gap-2'>
+                    <ul className='list-unstyled text-center d-flex flex-column align-items-center  gap-2'>
                         <li className='git-profile-page__container-bio'><p> {user.bio} </p></li>
                         <li className='git-profile-page__container-followers'> Abonnés : {user.followers} </li>
                         <li className='git-profile-page__container-following'> Abonnements : {user.following} </li>
