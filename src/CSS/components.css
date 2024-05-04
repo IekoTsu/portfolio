@@ -1,8 +1,7 @@
 /*---------------------- Footer ---------------------- */
 .footer{
-    
     background-color: #EEE;
-    height: auto;
+    height:fit-content;
 }
 
 .footer__copyright{
