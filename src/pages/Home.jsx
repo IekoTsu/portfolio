@@ -4,15 +4,15 @@ import aboutImg from "../img/john-doe-about.jpg";
 
 const Home = () => {
     return (
-        <main className='flex-grow-1'>
+        <main className='flex-grow-1 bg-light'>
             <section className='interface d-flex justify-content-center align-items-center'>
                 <div className='interface__content d-flex flex-column gap-3 mb-3 px-3'>
                     <h1 className='interface__title text-light text-center mx-auto'>Bonjour, je suis John Doe</h1>
                     <h2 className='interface__subtitle text-light mx-auto text-center '>Développeur web full stack</h2>
-                    <button type="button" className="btn btn-primary mx-auto px-4 " >En savoir plus</button>
+                    <a href='#scrollspyAbout' className="btn btn-primary mx-auto px-4" >En savoir plus</a>
                 </div>
             </section>
-            <article className='about rounded row m-5 p-5 bg-light shadow p'>
+            <article id='scrollspyAbout' className='about rounded row m-5 p-5 bg-light shadow p mx-auto'>
                 <div className='about__content col-md-6'>
                     <h3>À propos</h3>
                     <hr className="hr" />
@@ -28,7 +28,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className='about__skills-container col-md-6 gap-3'>
-                    <img  className='about__image rounded img-fluid' src={aboutImg} alt='' />
+                    <img  className='about__image rounded img-fluid' src={aboutImg} alt='Un homme concentré devant son ordinateur portable, assis à son bureau.' />
                     <div className='about__skills '>
                         <h4 className='mt-2'>Mes compétences</h4>
                         <div className='about__skills-item my-3'>

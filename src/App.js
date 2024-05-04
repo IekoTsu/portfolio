@@ -9,10 +9,11 @@ import Achievements from './pages/Achievements';
 import Blog from './pages/Blog';
 import Conatct from './pages/Contact';
 import LegalNotices from './pages/LegalNotices';
+import GitProfile from './pages/GitProfile';
 
 function App() {
   return (
-    <div className="App bg-light d-flex flex-column vh-100 justify-content-between ">
+    <div className="App d-flex flex-column vh-100 justify-content-between ">
       <Header/>
       <Routes>
         <Route path='/' element = { <Home/> }/>
@@ -21,6 +22,7 @@ function App() {
         <Route path='/blog' element = { <Blog/> }/>
         <Route path='/contact' element = { <Conatct/> }/>
         <Route path='/legal-notices' element = { <LegalNotices/> }/>
+        <Route path='/github-profile' element = { <GitProfile/> }/>
       </Routes>
       <Footer/>
     </div>

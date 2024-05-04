@@ -3,7 +3,7 @@ import '../CSS/LegalNotices.css'
 
 const LegalNotices = () => {
     return(
-        <main className="legal-notices-page flex-grow-1"> 
+        <main className="legal-notices-page flex-grow-1 bg-light"> 
             <section className="legal-notices-page__section p-5">
                 <Heading title="MENTIONS LÉGALES" />
                 <div className="legal-notices-page__accordion accordion" id="accordionExample">
