@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class Heading extends React.Component {
+class Heading extends Component {
     render(){
         return(
             <div className='mb-4'>

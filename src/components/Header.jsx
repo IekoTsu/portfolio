@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink , Link } from "react-router-dom";
 import logo from '../img/apple-touch-icon.png'
 
 const Nav = () => {
@@ -6,7 +6,7 @@ const Nav = () => {
         <header>
             <nav className="navbar navbar-expand-lg px-5">
                 <div className="container-fluid ">
-                    <a className="navbar-brand" href="#"> <img src= {logo} className="navbar_logo"></img> </a>
+                    <Link className="navbar-brand" to="/"> <img src= {logo} className="navbar_logo" alt="Des vagues bleue représentant le logo"></img> </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

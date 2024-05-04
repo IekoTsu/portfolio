@@ -11,6 +11,10 @@
     font-size: 2.3em;
 }
 
+.about{
+    max-width: 900px;
+}
+
 @media (width > 992px) {
     .interface{
         background:  url(../img/hero-bg.jpg) no-repeat center, rgb(0, 0, 0, 0.3) ;
